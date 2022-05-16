@@ -60,13 +60,15 @@ get_Models__Naive__Windows_ = function(do_CEP=TRUE) {
         )
 
   if(do_CEP == TRUE) {
-    My_calibrate_evaluate_plot(
+    M$CT = My_calibrate_evaluate_plot(
       M$M_naive,
       M$M_snaive,
       M$M_window_mean,
       M$M_window_weighted_mean,
       M$M_window_median
     )
+    #x =  (CT %>% modeltime_accuracy())
+    #x$rmse #x$rmsle
   }
 
   return(M)
@@ -86,7 +88,6 @@ get_Models__ARIMA_Seas_Regr = function(do_CEP=TRUE) {
     non_seasonal_ar = 1,
     non_seasonal_differences = 1,
     non_seasonal_ma = 1,
-    seasonal_period = 7,
     seasonal_ar = 1,
     seasonal_differences = 1,
     seasonal_ma = 1
@@ -120,7 +121,7 @@ get_Models__ARIMA_Seas_Regr = function(do_CEP=TRUE) {
 
   if(do_CEP == TRUE) {
     # * Calibration, Evaluation & Plotting ------------------------------------
-    My_calibrate_evaluate_plot(
+    M$CT = My_calibrate_evaluate_plot(
       M$arima,
       M$auto_sarima,
       M$auto_sarima_xregs
@@ -142,15 +143,6 @@ get_Models__EXP_smoothing__TBATS = function(do_CEP=TRUE) {
   # - Single Seasonality
   # - Cannot use XREGs (purely univariate)
 
-  # ETS Additive
-  model_fit_ets = exp_smoothing(
-    error = "additive",
-    trend = "additive",
-    season = "additive"
-  ) %>%
-    set_engine("ets") %>%
-    fit(value ~ date, data = df_hd_train)
-
   # Auto-ETS
   model_fit_auto_ets = exp_smoothing() %>%
     set_engine("ets") %>%
@@ -171,14 +163,6 @@ get_Models__EXP_smoothing__TBATS = function(do_CEP=TRUE) {
   #     - Does not support XREGS
   #     - Computationally low (often)
 
-  # TBATS with 3 Seasonalities
-  model_fit_tbats = seasonal_reg(
-    seasonal_period_1 = 7,
-    seasonal_period_2 = 30,
-    seasonal_period_3 = 365
-  ) %>%
-    set_engine("tbats") %>%
-    fit(value ~ date, df_hd_train)
 
   # Auto-TBATS
   model_fit_auto_tbats = seasonal_reg() %>%
@@ -187,20 +171,16 @@ get_Models__EXP_smoothing__TBATS = function(do_CEP=TRUE) {
 
 
   M = list(
-    "ets" = model_fit_ets,
     "ets_auto" = model_fit_auto_ets,
     "theta" = model_fit_theta,
-    "tbats" = model_fit_tbats,
     "tbats_auto" = model_fit_auto_tbats
   )
 
   if(do_CEP == TRUE) {
     # * Calibration, Evaluation & Plotting ------------------------------------
-    My_calibrate_evaluate_plot(
-      M$ets,
+    M$CT = My_calibrate_evaluate_plot(
       M$ets_auto,
       M$theta,
-      M$tbats,
       M$tbats_auto
     )
   }
@@ -226,59 +206,28 @@ get_Models__SLTM = function(do_CEP=TRUE) {
 
 
   # STLM with ETS
-  model_fit_stlm_ets = seasonal_reg(
-    seasonal_period_1 = 7,
-    seasonal_period_2 = 30,
-    seasonal_period_3 = 364 / 2
-  ) %>%
+  model_fit_stlm_ets = seasonal_reg() %>%
     set_engine("stlm_ets") %>%
     fit(value ~ date, data = df_hd_train)
 
-  # STLM with ARIMA
-  model_fit_stlm_arima = seasonal_reg(
-    seasonal_period_1 = 7,
-    seasonal_period_2 = 30,
-    seasonal_period_3 = 364 / 2
-  ) %>%
-    set_engine("stlm_arima") %>%
-    fit(value ~ date, data = df_hd_train)
 
-  # STLM with ARIMA + XREGS
-  model_fit_stlm_arima_xregs = seasonal_reg(
-    seasonal_period_1 = 7,
-    seasonal_period_2 = 30,
-    seasonal_period_3 = 364 / 2
-  ) %>%
-    set_engine("stlm_arima") %>%
-    fit(value ~ date, data = df_hd_train)
 
   # Auto-STLM with ARIMA (simply STL with ARIMA on the ts frequency seasonlity)
   model_fit_auto_stlm_arima = seasonal_reg() %>%
     set_engine("stlm_arima") %>%
     fit(value ~ date, data = df_hd_train)
 
-  # Auto-STLM with ARIMA + XREGS
-  model_fit_auto_stlm_arima_xregs = seasonal_reg() %>%
-    set_engine("stlm_arima") %>%
-    fit(value ~ date, data = df_hd_train)
-
 
   M = list(
-    "ets" = model_fit_stlm_ets,
-    "arima" = model_fit_stlm_arima,
-    "arima_xregs" = model_fit_stlm_arima_xregs,
-    "arima_auto" = model_fit_auto_stlm_arima,
-    "arima_xregs_auto" = model_fit_auto_stlm_arima_xregs
+    "stlm_ets" = model_fit_stlm_ets,
+    "stlm_arima_auto" = model_fit_auto_stlm_arima
   )
 
   if(do_CEP == TRUE) {
     # * Calibration, Evaluation & Plotting ------------------------------------
-    My_calibrate_evaluate_plot(
-      M$ets,
-      M$arima,
-      M$arima_xregs,
-      M$arima_auto,
-      M$arima_xregs_auto
+    M$CT = My_calibrate_evaluate_plot(
+      M$stlm_ets,
+      M$stlm_arima_auto
     )
   }
 
@@ -301,46 +250,129 @@ get_Models__Prophet = function(do_CEP=TRUE) {
 
   # * Engines ---------------------------------------------------------------
 
-  # PROPHET
-  model_fit_prophet = prophet_reg(
-    changepoint_num = 10,
-    changepoint_range = 0.9,
-    seasonality_weekly = TRUE,
-    seasonality_yearly = TRUE
-  ) %>%
-    set_engine("prophet") %>%
-    fit(value ~ date, data = df_hd_train)
-
-
   # Auto-PROPHET
   model_fit_auto_prophet = prophet_reg() %>%
     set_engine("prophet") %>%
     fit(value ~ date, data = df_hd_train)
 
-  # PROPHET with XREGs
-  model_fit_prophet_xregs = prophet_reg(
-    seasonality_weekly = TRUE,
-    seasonality_yearly = TRUE
-  ) %>%
-    set_engine("prophet") %>%
-    fit(value ~ date, data = df_hd_train)
-
-
   M = list(
-    "prophet" = model_fit_prophet,
-    "prophet_auto" = model_fit_auto_prophet,
-    "prophet_xregs" = model_fit_prophet_xregs
+    "prophet_auto" = model_fit_auto_prophet
   )
 
   if(do_CEP == TRUE) {
     # * Calibration, Evaluation & Plotting ------------------------------------
-    My_calibrate_evaluate_plot(
-      M$prophet,
-      M$prophet_auto,
-      M$prophet_xregs
+    M$CT = My_calibrate_evaluate_plot(
+      M$prophet_auto
     )
   }
 
   return(M)
 }
 
+
+
+
+
+
+get_Models_H20 = function() {
+  h2o.init()
+  #Recipes$rcp_H20 %>% prep() %>% juice() %>% glimpse()
+
+  model_spec_h2o <- automl_reg(mode = 'regression') %>%
+    set_engine(
+      engine = "h2o",
+      max_runtime_secs = 30,
+      max_runtime_secs_per_model = 30,
+      project_name = "project_tsf_course",
+      max_models = 10,
+      nfolds = 10,
+      sort_metric = "rmse",
+      verbosity = NULL,
+      seed = 123
+    )
+      #exclude_algos = c("DeepLearning"), # remove deeplearning for computation time
+
+  #?automl_reg
+  # stacking ---- Model Stacking is a way to improve model predictions by combining the outputs of multiple models and running them through another machine learning model called a meta-learner.
+
+  wrkfl_fit_h2o <- workflow() %>%
+    add_model(model_spec_h2o) %>%
+    add_recipe(Recipes$rcp_H20) %>%
+    fit(df_hd_train)
+
+  wrkfl_fit_h2o %>% automl_leaderboard() %>% head(20)
+  CT = My_calibrate_evaluate_plot(wrkfl_fit_h2o)
+  
+  M = list("CT" = CT, "wrkfl_fit_h2o" = wrkfl_fit_h2o)
+  
+  return(M)
+
+
+  # gbm_name_1 <- "GBM_10_AutoML_2_20220516_182251"# "GBM_2_AutoML_1_20220219_112345"
+  # ensemble_name <- "StackedEnsemble_AllModels_5_AutoML_1_20220516_181949" # "XGBoost_3_AutoML_1_20220219_112345"
+  # gbm_name_2 <- "GBM_5_AutoML_1_20220516_181949" # "StackedEnsemble_AllModels_5_AutoML_1_20220219_112345"
+  #
+  # # change default selected models
+  # wrkfl_fit_h20_gbm <- wrkfl_fit_h2o %>%
+  #   automl_update_model(gbm_name_1)
+  # wrkfl_fit_h20_xgb <- wrkfl_fit_h2o %>%
+  #   automl_update_model(ensemble_name)
+  # wrkfl_fit_h20_stack <- wrkfl_fit_h2o %>%
+  #   automl_update_model(gbm_name_2)
+  #
+  #
+  #
+  # # * Calibration, Evaluation & Plotting ------------------------------------
+  #
+  #
+  # AF_calibrate_evaluate_plot(wrkfl_fit_h2o)
+  #
+  # AF_calibrate_evaluate_plot(
+  #   wrkfl_fit_h20_gbm,
+  #   wrkfl_fit_h20_xgb,
+  #   wrkfl_fit_h20_stack
+  # )
+  # return wrkfl_fit_h2o
+
+}
+
+
+
+
+
+
+get_H20_ensemble <- function() {
+  # 1. Generate a 2-model ensemble (GBM + RF)
+
+  # Train & Cross-validate a GBM
+  my_gbm <- h2o.gbm(x = date,
+                    y = value,
+                    training_frame = df_hd_train,
+                    distribution = "bernoulli",
+                    ntrees = 10,
+                    max_depth = 3,
+                    min_rows = 2,
+                    learn_rate = 0.2,
+                    nfolds = nfolds,
+                    keep_cross_validation_predictions = TRUE,
+                    seed = 1)
+  perf_gbm_test <- h2o.performance(my_gbm, newdata = test)
+
+  # Train & Cross-validate a RF
+  my_rf <- h2o.randomForest(x = x,
+                            y = y,
+                            training_frame = train,
+                            ntrees = 50,
+                            nfolds = nfolds,
+                            keep_cross_validation_predictions = TRUE,
+                            seed = 1)
+
+  # Train a stacked ensemble using the GBM and RF above
+  ensemble <- h2o.stackedEnsemble(x = x,
+                                  y = y,
+                                  training_frame = train,
+                                  base_models = list(my_gbm, my_rf))
+
+  # Eval ensemble performance on a test set
+  perf <- h2o.performance(ensemble, newdata = df_hd_test)
+}

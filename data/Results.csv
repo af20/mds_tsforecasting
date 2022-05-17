@@ -1,0 +1,751 @@
+"id_serie";"model_name";"model_group";"metric";"value"
+"Y18950";"NAIVE";"Naive";"smape";9.377223
+"Y18950";"NAIVE";"Naive";"mase";1.614293
+"Y18950";"NAIVE";"Naive";"rmsse";1.081313
+"Y18950";"SNAIVE [5]";"Naive";"smape";20.951908
+"Y18950";"SNAIVE [5]";"Naive";"mase";3.238081
+"Y18950";"SNAIVE [5]";"Naive";"rmsse";1.957379
+"Y18950";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"smape";6.979261
+"Y18950";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"mase";1.189423
+"Y18950";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"rmsse";0.672825
+"Y18950";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";10.467727
+"Y18950";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";1.849704
+"Y18950";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.022345
+"Y18950";"THETA METHOD";"EXP_smoothing__TBATS";"smape";6.401371
+"Y18950";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.108636
+"Y18950";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";0.679014
+"Y18950";"BATS(0.273, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";15.736151
+"Y18950";"BATS(0.273, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";2.930555
+"Y18950";"BATS(0.273, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";1.571817
+"Y18950";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"smape";11.163449
+"Y18950";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"mase";1.981542
+"Y18950";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"rmsse";1.104071
+"Y18950";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";8.270323
+"Y18950";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";1.424618
+"Y18950";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";0.793738
+"Y18950";"PROPHET";"Prophet";"smape";12.301039
+"Y18950";"PROPHET";"Prophet";"mase";2.216345
+"Y18950";"PROPHET";"Prophet";"rmsse";1.199049
+"Y18998";"NAIVE";"Naive";"smape";29.150573
+"Y18998";"NAIVE";"Naive";"mase";4.083001
+"Y18998";"NAIVE";"Naive";"rmsse";2.366148
+"Y18998";"SNAIVE [4.5]";"Naive";"smape";36.549529
+"Y18998";"SNAIVE [4.5]";"Naive";"mase";4.926822
+"Y18998";"SNAIVE [4.5]";"Naive";"rmsse";2.77619
+"Y18998";"ARIMA(0,2,0)";"Arima_Seas";"smape";14.413597
+"Y18998";"ARIMA(0,2,0)";"Arima_Seas";"mase";2.166848
+"Y18998";"ARIMA(0,2,0)";"Arima_Seas";"rmsse";1.247282
+"Y18998";"ETS(A,A,N)";"EXP_smoothing__TBATS";"smape";14.495242
+"Y18998";"ETS(A,A,N)";"EXP_smoothing__TBATS";"mase";2.178322
+"Y18998";"ETS(A,A,N)";"EXP_smoothing__TBATS";"rmsse";1.253868
+"Y18998";"THETA METHOD";"EXP_smoothing__TBATS";"smape";17.743162
+"Y18998";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.626633
+"Y18998";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.512892
+"Y18998";"BATS(0.273, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";11.13418
+"Y18998";"BATS(0.273, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";2.110978
+"Y18998";"BATS(0.273, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";1.584453
+"Y18998";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"smape";18.931347
+"Y18998";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"mase";2.783486
+"Y18998";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"rmsse";1.593738
+"Y18998";"SEASONAL DECOMP: ARIMA(0,2,0)";"SLTM";"smape";18.917687
+"Y18998";"SEASONAL DECOMP: ARIMA(0,2,0)";"SLTM";"mase";2.781655
+"Y18998";"SEASONAL DECOMP: ARIMA(0,2,0)";"SLTM";"rmsse";1.592674
+"Y18998";"PROPHET";"Prophet";"smape";8.099026
+"Y18998";"PROPHET";"Prophet";"mase";1.244495
+"Y18998";"PROPHET";"Prophet";"rmsse";0.757527
+"Y2993";"NAIVE";"Naive";"smape";16.02488
+"Y2993";"NAIVE";"Naive";"mase";3.279951
+"Y2993";"NAIVE";"Naive";"rmsse";2.7128
+"Y2993";"SNAIVE [5]";"Naive";"smape";37.356907
+"Y2993";"SNAIVE [5]";"Naive";"mase";6.63141
+"Y2993";"SNAIVE [5]";"Naive";"rmsse";5.432113
+"Y2993";"ARIMA(0,2,1)";"Arima_Seas";"smape";5.775843
+"Y2993";"ARIMA(0,2,1)";"Arima_Seas";"mase";1.341291
+"Y2993";"ARIMA(0,2,1)";"Arima_Seas";"rmsse";1.558063
+"Y2993";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";5.595549
+"Y2993";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";1.220564
+"Y2993";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.078141
+"Y2993";"THETA METHOD";"EXP_smoothing__TBATS";"smape";7.606504
+"Y2993";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.624538
+"Y2993";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.424784
+"Y2993";"BATS(0, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";11.221341
+"Y2993";"BATS(0, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";2.790631
+"Y2993";"BATS(0, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";3.138409
+"Y2993";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"smape";15.097015
+"Y2993";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"mase";3.101764
+"Y2993";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"rmsse";2.53976
+"Y2993";"SEASONAL DECOMP: ARIMA(1,2,0)";"SLTM";"smape";5.981173
+"Y2993";"SEASONAL DECOMP: ARIMA(1,2,0)";"SLTM";"mase";1.383981
+"Y2993";"SEASONAL DECOMP: ARIMA(1,2,0)";"SLTM";"rmsse";1.53748
+"Y2993";"PROPHET";"Prophet";"smape";8.84633
+"Y2993";"PROPHET";"Prophet";"mase";1.864494
+"Y2993";"PROPHET";"Prophet";"rmsse";1.519077
+"Y1849";"NAIVE";"Naive";"smape";20.737411
+"Y1849";"NAIVE";"Naive";"mase";2.908903
+"Y1849";"NAIVE";"Naive";"rmsse";1.819624
+"Y1849";"SNAIVE [5]";"Naive";"smape";32.630983
+"Y1849";"SNAIVE [5]";"Naive";"mase";4.26501
+"Y1849";"SNAIVE [5]";"Naive";"rmsse";2.473228
+"Y1849";"ARIMA(0,2,2)";"Arima_Seas";"smape";4.189303
+"Y1849";"ARIMA(0,2,2)";"Arima_Seas";"mase";0.666683
+"Y1849";"ARIMA(0,2,2)";"Arima_Seas";"rmsse";0.499572
+"Y1849";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";4.110984
+"Y1849";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";0.654644
+"Y1849";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";0.490974
+"Y1849";"THETA METHOD";"EXP_smoothing__TBATS";"smape";15.332076
+"Y1849";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.220467
+"Y1849";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.407358
+"Y1849";"BATS(0.003, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";8.299468
+"Y1849";"BATS(0.003, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";1.361483
+"Y1849";"BATS(0.003, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";0.810362
+"Y1849";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";5.334569
+"Y1849";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";0.831829
+"Y1849";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";0.576977
+"Y1849";"SEASONAL DECOMP: ARIMA(0,2,2)";"SLTM";"smape";5.089986
+"Y1849";"SEASONAL DECOMP: ARIMA(0,2,2)";"SLTM";"mase";0.796277
+"Y1849";"SEASONAL DECOMP: ARIMA(0,2,2)";"SLTM";"rmsse";0.558038
+"Y1849";"PROPHET";"Prophet";"smape";4.176113
+"Y1849";"PROPHET";"Prophet";"mase";0.662782
+"Y1849";"PROPHET";"Prophet";"rmsse";0.492449
+"Y3378";"NAIVE";"Naive";"smape";17.027578
+"Y3378";"NAIVE";"Naive";"mase";4.37844
+"Y3378";"NAIVE";"Naive";"rmsse";2.676155
+"Y3378";"SNAIVE [5]";"Naive";"smape";15.241386
+"Y3378";"SNAIVE [5]";"Naive";"mase";3.924222
+"Y3378";"SNAIVE [5]";"Naive";"rmsse";2.573098
+"Y3378";"ARIMA(1,1,0)";"Arima_Seas";"smape";36.897678
+"Y3378";"ARIMA(1,1,0)";"Arima_Seas";"mase";8.613947
+"Y3378";"ARIMA(1,1,0)";"Arima_Seas";"rmsse";5.24923
+"Y3378";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";6.463452
+"Y3378";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";1.741345
+"Y3378";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.029082
+"Y3378";"THETA METHOD";"EXP_smoothing__TBATS";"smape";10.689746
+"Y3378";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.8346
+"Y3378";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.702722
+"Y3378";"BATS(0, {0,0}, 0.932, -)";"EXP_smoothing__TBATS";"smape";16.615123
+"Y3378";"BATS(0, {0,0}, 0.932, -)";"EXP_smoothing__TBATS";"mase";4.268562
+"Y3378";"BATS(0, {0,0}, 0.932, -)";"EXP_smoothing__TBATS";"rmsse";2.508022
+"Y3378";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";2.377969
+"Y3378";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";0.65377
+"Y3378";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";0.421192
+"Y3378";"SEASONAL DECOMP: ARIMA(1,1,0)";"SLTM";"smape";27.580776
+"Y3378";"SEASONAL DECOMP: ARIMA(1,1,0)";"SLTM";"mase";6.721565
+"Y3378";"SEASONAL DECOMP: ARIMA(1,1,0)";"SLTM";"rmsse";4.148349
+"Y3378";"PROPHET";"Prophet";"smape";3.64239
+"Y3378";"PROPHET";"Prophet";"mase";1.01971
+"Y3378";"PROPHET";"Prophet";"rmsse";0.59431
+"Y11735";"NAIVE";"Naive";"smape";11.853405
+"Y11735";"NAIVE";"Naive";"mase";1.637768
+"Y11735";"NAIVE";"Naive";"rmsse";0.973227
+"Y11735";"SNAIVE [5]";"Naive";"smape";12.297634
+"Y11735";"SNAIVE [5]";"Naive";"mase";1.695252
+"Y11735";"SNAIVE [5]";"Naive";"rmsse";1.081979
+"Y11735";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"smape";7.240627
+"Y11735";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"mase";0.980585
+"Y11735";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"rmsse";0.767094
+"Y11735";"ETS(A,N,N)";"EXP_smoothing__TBATS";"smape";11.853518
+"Y11735";"ETS(A,N,N)";"EXP_smoothing__TBATS";"mase";1.637783
+"Y11735";"ETS(A,N,N)";"EXP_smoothing__TBATS";"rmsse";0.973236
+"Y11735";"THETA METHOD";"EXP_smoothing__TBATS";"smape";8.032906
+"Y11735";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.095874
+"Y11735";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";0.756739
+"Y11735";"BATS(1, {1,0}, 1, -)";"EXP_smoothing__TBATS";"smape";12.349367
+"Y11735";"BATS(1, {1,0}, 1, -)";"EXP_smoothing__TBATS";"mase";1.79819
+"Y11735";"BATS(1, {1,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";1.170163
+"Y11735";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"smape";11.327163
+"Y11735";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"mase";1.564828
+"Y11735";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"rmsse";0.920847
+"Y11735";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";6.904485
+"Y11735";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";0.932337
+"Y11735";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";0.724001
+"Y11735";"PROPHET";"Prophet";"smape";7.582646
+"Y11735";"PROPHET";"Prophet";"mase";1.037517
+"Y11735";"PROPHET";"Prophet";"rmsse";0.740744
+"Y4772";"NAIVE";"Naive";"smape";7.154843
+"Y4772";"NAIVE";"Naive";"mase";1.861126
+"Y4772";"NAIVE";"Naive";"rmsse";1.162024
+"Y4772";"SNAIVE [5]";"Naive";"smape";20.348109
+"Y4772";"SNAIVE [5]";"Naive";"mase";4.778874
+"Y4772";"SNAIVE [5]";"Naive";"rmsse";2.825241
+"Y4772";"ARIMA(0,2,1)";"Arima_Seas";"smape";13.191285
+"Y4772";"ARIMA(0,2,1)";"Arima_Seas";"mase";3.736222
+"Y4772";"ARIMA(0,2,1)";"Arima_Seas";"rmsse";1.997858
+"Y4772";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";12.248506
+"Y4772";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";3.44448
+"Y4772";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.834586
+"Y4772";"THETA METHOD";"EXP_smoothing__TBATS";"smape";4.417519
+"Y4772";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.16008
+"Y4772";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";0.698456
+"Y4772";"BATS(0.172, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";19.465794
+"Y4772";"BATS(0.172, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";5.807827
+"Y4772";"BATS(0.172, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";3.226624
+"Y4772";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";14.294523
+"Y4772";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";4.07292
+"Y4772";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";2.1762
+"Y4772";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"smape";14.17143
+"Y4772";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"mase";4.034151
+"Y4772";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"rmsse";2.154439
+"Y4772";"PROPHET";"Prophet";"smape";14.04542
+"Y4772";"PROPHET";"Prophet";"mase";4.007054
+"Y4772";"PROPHET";"Prophet";"rmsse";2.15481
+"Y6757";"NAIVE";"Naive";"smape";3.247891
+"Y6757";"NAIVE";"Naive";"mase";1.646534
+"Y6757";"NAIVE";"Naive";"rmsse";1.463846
+"Y6757";"SNAIVE [5]";"Naive";"smape";17.248545
+"Y6757";"SNAIVE [5]";"Naive";"mase";7.958716
+"Y6757";"SNAIVE [5]";"Naive";"rmsse";6.233374
+"Y6757";"ARIMA(1,2,0)";"Arima_Seas";"smape";15.346725
+"Y6757";"ARIMA(1,2,0)";"Arima_Seas";"mase";8.686711
+"Y6757";"ARIMA(1,2,0)";"Arima_Seas";"rmsse";6.688959
+"Y6757";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";15.489288
+"Y6757";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";8.770377
+"Y6757";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";6.737901
+"Y6757";"THETA METHOD";"EXP_smoothing__TBATS";"smape";1.01244
+"Y6757";"THETA METHOD";"EXP_smoothing__TBATS";"mase";0.517522
+"Y6757";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";0.426373
+"Y6757";"BATS(0.239, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";16.51126
+"Y6757";"BATS(0.239, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";9.429191
+"Y6757";"BATS(0.239, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";7.298694
+"Y6757";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";13.615625
+"Y6757";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";7.634654
+"Y6757";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";5.924817
+"Y6757";"SEASONAL DECOMP: ARIMA(1,2,0)";"SLTM";"smape";13.756385
+"Y6757";"SEASONAL DECOMP: ARIMA(1,2,0)";"SLTM";"mase";7.724706
+"Y6757";"SEASONAL DECOMP: ARIMA(1,2,0)";"SLTM";"rmsse";6.008134
+"Y6757";"PROPHET";"Prophet";"smape";7.779947
+"Y6757";"PROPHET";"Prophet";"mase";4.224295
+"Y6757";"PROPHET";"Prophet";"rmsse";3.393079
+"Y16231";"NAIVE";"Naive";"smape";11.919018
+"Y16231";"NAIVE";"Naive";"mase";1.675505
+"Y16231";"NAIVE";"Naive";"rmsse";1.039941
+"Y16231";"SNAIVE [5]";"Naive";"smape";14.686184
+"Y16231";"SNAIVE [5]";"Naive";"mase";2.040669
+"Y16231";"SNAIVE [5]";"Naive";"rmsse";1.398213
+"Y16231";"ARIMA(0,1,0)(1,0,0)[5] WITH DRIFT";"Arima_Seas";"smape";12.433072
+"Y16231";"ARIMA(0,1,0)(1,0,0)[5] WITH DRIFT";"Arima_Seas";"mase";1.748929
+"Y16231";"ARIMA(0,1,0)(1,0,0)[5] WITH DRIFT";"Arima_Seas";"rmsse";1.075851
+"Y16231";"ETS(A,N,N)";"EXP_smoothing__TBATS";"smape";11.919101
+"Y16231";"ETS(A,N,N)";"EXP_smoothing__TBATS";"mase";1.675517
+"Y16231";"ETS(A,N,N)";"EXP_smoothing__TBATS";"rmsse";1.039951
+"Y16231";"THETA METHOD";"EXP_smoothing__TBATS";"smape";12.02826
+"Y16231";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.692155
+"Y16231";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.032891
+"Y16231";"BATS(1, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";12.124858
+"Y16231";"BATS(1, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";1.715736
+"Y16231";"BATS(1, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";1.117509
+"Y16231";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"smape";11.878725
+"Y16231";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"mase";1.669983
+"Y16231";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"rmsse";1.042787
+"Y16231";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";12.075716
+"Y16231";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";1.713161
+"Y16231";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";1.147784
+"Y16231";"PROPHET";"Prophet";"smape";12.67376
+"Y16231";"PROPHET";"Prophet";"mase";1.78705
+"Y16231";"PROPHET";"Prophet";"rmsse";1.10406
+"Y2764";"NAIVE";"Naive";"smape";8.140704
+"Y2764";"NAIVE";"Naive";"mase";1.324318
+"Y2764";"NAIVE";"Naive";"rmsse";1.025665
+"Y2764";"SNAIVE [5]";"Naive";"smape";11.366338
+"Y2764";"SNAIVE [5]";"Naive";"mase";1.749897
+"Y2764";"SNAIVE [5]";"Naive";"rmsse";1.513503
+"Y2764";"ARIMA(0,1,1) WITH DRIFT";"Arima_Seas";"smape";8.87644
+"Y2764";"ARIMA(0,1,1) WITH DRIFT";"Arima_Seas";"mase";1.461431
+"Y2764";"ARIMA(0,1,1) WITH DRIFT";"Arima_Seas";"rmsse";1.311485
+"Y21594";"NAIVE";"Naive";"smape";12.192217
+"Y21594";"NAIVE";"Naive";"mase";0.80089
+"Y21594";"NAIVE";"Naive";"rmsse";0.918807
+"Y21594";"SNAIVE [5]";"Naive";"smape";13.261183
+"Y21594";"SNAIVE [5]";"Naive";"mase";0.856932
+"Y21594";"SNAIVE [5]";"Naive";"rmsse";0.938682
+"Y21594";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"smape";20.473177
+"Y21594";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"mase";1.384727
+"Y21594";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"rmsse";1.261693
+"Y21594";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";23.309753
+"Y21594";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";1.605157
+"Y21594";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.436103
+"Y21594";"THETA METHOD";"EXP_smoothing__TBATS";"smape";15.664533
+"Y21594";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.033119
+"Y21594";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.038171
+"Y21594";"BATS(0, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";33.424284
+"Y21594";"BATS(0, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";2.488614
+"Y21594";"BATS(0, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";2.262458
+"Y21594";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"smape";12.432222
+"Y21594";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"mase";0.816518
+"Y21594";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"rmsse";0.91361
+"Y21594";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";19.653397
+"Y21594";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";1.328214
+"Y21594";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";1.201379
+"Y21594";"PROPHET";"Prophet";"smape";18.465066
+"Y21594";"PROPHET";"Prophet";"mase";1.233292
+"Y21594";"PROPHET";"Prophet";"rmsse";1.180786
+"Y12733";"NAIVE";"Naive";"smape";20.286024
+"Y12733";"NAIVE";"Naive";"mase";3.760365
+"Y12733";"NAIVE";"Naive";"rmsse";2.444519
+"Y12733";"SNAIVE [5]";"Naive";"smape";18.429015
+"Y12733";"SNAIVE [5]";"Naive";"mase";3.44942
+"Y12733";"SNAIVE [5]";"Naive";"rmsse";2.297429
+"Y12733";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"smape";9.45161
+"Y12733";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"mase";1.848051
+"Y12733";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"rmsse";1.261785
+"Y12733";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";14.487629
+"Y12733";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";2.765951
+"Y12733";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.81252
+"Y12733";"THETA METHOD";"EXP_smoothing__TBATS";"smape";13.324946
+"Y12733";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.558665
+"Y12733";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.684208
+"Y12733";"BATS(0.389, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";24.438928
+"Y12733";"BATS(0.389, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";4.432587
+"Y12733";"BATS(0.389, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";2.904355
+"Y12733";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"smape";21.441805
+"Y12733";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"mase";3.947076
+"Y12733";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"rmsse";2.582525
+"Y12733";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";7.985868
+"Y12733";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";1.579408
+"Y12733";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";1.090798
+"Y12733";"PROPHET";"Prophet";"smape";6.602385
+"Y12733";"PROPHET";"Prophet";"mase";1.340963
+"Y12733";"PROPHET";"Prophet";"rmsse";0.930115
+"Y9220";"NAIVE";"Naive";"smape";17.587853
+"Y9220";"NAIVE";"Naive";"mase";2.88689
+"Y9220";"NAIVE";"Naive";"rmsse";2.664019
+"Y9220";"SNAIVE [5]";"Naive";"smape";31.899328
+"Y9220";"SNAIVE [5]";"Naive";"mase";6.108849
+"Y9220";"SNAIVE [5]";"Naive";"rmsse";6.348342
+"Y9220";"ARIMA(0,1,0)";"Arima_Seas";"smape";17.587853
+"Y9220";"ARIMA(0,1,0)";"Arima_Seas";"mase";2.88689
+"Y9220";"ARIMA(0,1,0)";"Arima_Seas";"rmsse";2.664019
+"Y9220";"ETS(M,N,N)";"EXP_smoothing__TBATS";"smape";17.586069
+"Y9220";"ETS(M,N,N)";"EXP_smoothing__TBATS";"mase";2.886565
+"Y9220";"ETS(M,N,N)";"EXP_smoothing__TBATS";"rmsse";2.663754
+"Y9220";"THETA METHOD";"EXP_smoothing__TBATS";"smape";26.168992
+"Y9220";"THETA METHOD";"EXP_smoothing__TBATS";"mase";4.551645
+"Y9220";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";4.219492
+"Y9220";"BATS(0.001, {0,0}, -, -)";"EXP_smoothing__TBATS";"smape";18.779204
+"Y9220";"BATS(0.001, {0,0}, -, -)";"EXP_smoothing__TBATS";"mase";3.105418
+"Y9220";"BATS(0.001, {0,0}, -, -)";"EXP_smoothing__TBATS";"rmsse";2.842738
+"Y9220";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"smape";17.37043
+"Y9220";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"mase";2.878904
+"Y9220";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"rmsse";2.837444
+"Y9220";"SEASONAL DECOMP: ARIMA(0,1,0)";"SLTM";"smape";17.371401
+"Y9220";"SEASONAL DECOMP: ARIMA(0,1,0)";"SLTM";"mase";2.87908
+"Y9220";"SEASONAL DECOMP: ARIMA(0,1,0)";"SLTM";"rmsse";2.837579
+"Y9220";"PROPHET";"Prophet";"smape";44.186167
+"Y9220";"PROPHET";"Prophet";"mase";8.641686
+"Y9220";"PROPHET";"Prophet";"rmsse";7.748565
+"Y10216";"NAIVE";"Naive";"smape";26.794949
+"Y10216";"NAIVE";"Naive";"mase";1.58836
+"Y10216";"NAIVE";"Naive";"rmsse";1.04258
+"Y10216";"SNAIVE [5]";"Naive";"smape";35.321814
+"Y10216";"SNAIVE [5]";"Naive";"mase";1.989559
+"Y10216";"SNAIVE [5]";"Naive";"rmsse";1.438448
+"Y10216";"ARIMA(0,1,1)(0,0,1)[5] WITH DRIFT";"Arima_Seas";"smape";27.814773
+"Y10216";"ARIMA(0,1,1)(0,0,1)[5] WITH DRIFT";"Arima_Seas";"mase";1.633955
+"Y10216";"ARIMA(0,1,1)(0,0,1)[5] WITH DRIFT";"Arima_Seas";"rmsse";1.118239
+"Y10216";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";29.561084
+"Y10216";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";1.740971
+"Y10216";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.146736
+"Y10216";"THETA METHOD";"EXP_smoothing__TBATS";"smape";29.894842
+"Y10216";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.756483
+"Y10216";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.175717
+"Y10216";"BATS(0.011, {0,0}, 0.977, -)";"EXP_smoothing__TBATS";"smape";29.617704
+"Y10216";"BATS(0.011, {0,0}, 0.977, -)";"EXP_smoothing__TBATS";"mase";1.758018
+"Y10216";"BATS(0.011, {0,0}, 0.977, -)";"EXP_smoothing__TBATS";"rmsse";1.154709
+"Y10216";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";32.031483
+"Y10216";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";1.870282
+"Y10216";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";1.244709
+"Y10216";"SEASONAL DECOMP: ARIMA(0,1,1) WITH DRIFT";"SLTM";"smape";30.293587
+"Y10216";"SEASONAL DECOMP: ARIMA(0,1,1) WITH DRIFT";"SLTM";"mase";1.791597
+"Y10216";"SEASONAL DECOMP: ARIMA(0,1,1) WITH DRIFT";"SLTM";"rmsse";1.172385
+"Y10216";"PROPHET";"Prophet";"smape";27.079613
+"Y10216";"PROPHET";"Prophet";"mase";1.616895
+"Y10216";"PROPHET";"Prophet";"rmsse";1.064594
+"Y13764";"NAIVE";"Naive";"smape";4.257276
+"Y13764";"NAIVE";"Naive";"mase";1.819091
+"Y13764";"NAIVE";"Naive";"rmsse";1.429231
+"Y13764";"SNAIVE [5]";"Naive";"smape";8.606055
+"Y13764";"SNAIVE [5]";"Naive";"mase";3.808918
+"Y13764";"SNAIVE [5]";"Naive";"rmsse";2.661773
+"Y13764";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"smape";1.858879
+"Y13764";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"mase";0.773489
+"Y13764";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"rmsse";0.577156
+"Y13764";"ETS(M,N,N)";"EXP_smoothing__TBATS";"smape";4.257491
+"Y13764";"ETS(M,N,N)";"EXP_smoothing__TBATS";"mase";1.819186
+"Y13764";"ETS(M,N,N)";"EXP_smoothing__TBATS";"rmsse";1.429276
+"Y13764";"THETA METHOD";"EXP_smoothing__TBATS";"smape";1.87189
+"Y13764";"THETA METHOD";"EXP_smoothing__TBATS";"mase";0.777468
+"Y13764";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";0.813082
+"Y13764";"BATS(0.003, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";1.64714
+"Y13764";"BATS(0.003, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";0.682851
+"Y13764";"BATS(0.003, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";0.639051
+"Y13764";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"smape";5.181406
+"Y13764";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"mase";2.231385
+"Y13764";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"rmsse";1.608121
+"Y13764";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";1.652316
+"Y13764";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";0.685515
+"Y13764";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";0.550455
+"Y13764";"PROPHET";"Prophet";"smape";1.945095
+"Y13764";"PROPHET";"Prophet";"mase";0.818245
+"Y13764";"PROPHET";"Prophet";"rmsse";0.586652
+"Y2895";"NAIVE";"Naive";"smape";20.376935
+"Y2895";"NAIVE";"Naive";"mase";3.423602
+"Y2895";"NAIVE";"Naive";"rmsse";2.091218
+"Y2895";"SNAIVE [5]";"Naive";"smape";31.736526
+"Y2895";"SNAIVE [5]";"Naive";"mase";5.000516
+"Y2895";"SNAIVE [5]";"Naive";"rmsse";2.905342
+"Y2895";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"smape";7.938631
+"Y2895";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"mase";1.427008
+"Y2895";"ARIMA(0,1,0) WITH DRIFT";"Arima_Seas";"rmsse";0.875691
+"Y2895";"ETS(A,A,N)";"EXP_smoothing__TBATS";"smape";9.838584
+"Y2895";"ETS(A,A,N)";"EXP_smoothing__TBATS";"mase";1.747103
+"Y2895";"ETS(A,A,N)";"EXP_smoothing__TBATS";"rmsse";1.056945
+"Y2895";"THETA METHOD";"EXP_smoothing__TBATS";"smape";14.780134
+"Y2895";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.559193
+"Y2895";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.563937
+"Y2895";"BATS(1, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";9.528868
+"Y2895";"BATS(1, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";1.694492
+"Y2895";"BATS(1, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";1.023826
+"Y2895";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"smape";12.007963
+"Y2895";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"mase";2.100625
+"Y2895";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"rmsse";1.258577
+"Y2895";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";9.756514
+"Y2895";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";1.727485
+"Y2895";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";1.045316
+"Y2895";"PROPHET";"Prophet";"smape";10.99777
+"Y2895";"PROPHET";"Prophet";"mase";1.930921
+"Y2895";"PROPHET";"Prophet";"rmsse";1.139539
+"Y6181";"NAIVE";"Naive";"smape";0.945666
+"Y6181";"NAIVE";"Naive";"mase";0.791667
+"Y6181";"NAIVE";"Naive";"rmsse";0.970384
+"Y6181";"SNAIVE [5]";"Naive";"smape";2.45475
+"Y6181";"SNAIVE [5]";"Naive";"mase";2.083333
+"Y6181";"SNAIVE [5]";"Naive";"rmsse";2.730125
+"Y6181";"ARIMA(0,1,0)";"Arima_Seas";"smape";0.945666
+"Y6181";"ARIMA(0,1,0)";"Arima_Seas";"mase";0.791667
+"Y6181";"ARIMA(0,1,0)";"Arima_Seas";"rmsse";0.970384
+"Y6181";"ETS(A,N,N)";"EXP_smoothing__TBATS";"smape";0.945666
+"Y6181";"ETS(A,N,N)";"EXP_smoothing__TBATS";"mase";0.791667
+"Y6181";"ETS(A,N,N)";"EXP_smoothing__TBATS";"rmsse";0.970441
+"Y6181";"THETA METHOD";"EXP_smoothing__TBATS";"smape";2.420983
+"Y6181";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.051736
+"Y6181";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";2.457291
+"Y6181";"BATS(1, {0,0}, -, -)";"EXP_smoothing__TBATS";"smape";0.945669
+"Y6181";"BATS(1, {0,0}, -, -)";"EXP_smoothing__TBATS";"mase";0.791667
+"Y6181";"BATS(1, {0,0}, -, -)";"EXP_smoothing__TBATS";"rmsse";0.91514
+"Y6181";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"smape";1.053971
+"Y6181";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"mase";0.882343
+"Y6181";"SEASONAL DECOMP: ETS(M,N,N)";"SLTM";"rmsse";1.041311
+"Y6181";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";2.569094
+"Y6181";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";2.180744
+"Y6181";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";2.672057
+"Y6181";"PROPHET";"Prophet";"smape";9.377991
+"Y6181";"PROPHET";"Prophet";"mase";8.251299
+"Y6181";"PROPHET";"Prophet";"rmsse";9.491605
+"Y19054";"NAIVE";"Naive";"smape";1.228235
+"Y19054";"NAIVE";"Naive";"mase";2.59617
+"Y19054";"NAIVE";"Naive";"rmsse";3.061433
+"Y19054";"SNAIVE [5]";"Naive";"smape";2.388664
+"Y19054";"SNAIVE [5]";"Naive";"mase";5.161569
+"Y19054";"SNAIVE [5]";"Naive";"rmsse";7.110168
+"Y19054";"ARIMA(0,1,0)";"Arima_Seas";"smape";1.228235
+"Y19054";"ARIMA(0,1,0)";"Arima_Seas";"mase";2.59617
+"Y19054";"ARIMA(0,1,0)";"Arima_Seas";"rmsse";3.061433
+"Y19054";"ETS(A,N,N)";"EXP_smoothing__TBATS";"smape";1.228098
+"Y19054";"ETS(A,N,N)";"EXP_smoothing__TBATS";"mase";2.595882
+"Y19054";"ETS(A,N,N)";"EXP_smoothing__TBATS";"rmsse";3.061123
+"Y19054";"THETA METHOD";"EXP_smoothing__TBATS";"smape";0.824568
+"Y19054";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.746528
+"Y19054";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";2.286493
+"Y19054";"BATS(1, {0,0}, 0.8, -)";"EXP_smoothing__TBATS";"smape";2.081429
+"Y19054";"BATS(1, {0,0}, 0.8, -)";"EXP_smoothing__TBATS";"mase";4.379038
+"Y19054";"BATS(1, {0,0}, 0.8, -)";"EXP_smoothing__TBATS";"rmsse";5.026158
+"Y19054";"SEASONAL DECOMP: ETS(A,AD,N)";"SLTM";"smape";1.513743
+"Y19054";"SEASONAL DECOMP: ETS(A,AD,N)";"SLTM";"mase";3.189136
+"Y19054";"SEASONAL DECOMP: ETS(A,AD,N)";"SLTM";"rmsse";3.974439
+"Y19054";"SEASONAL DECOMP: ARIMA(3,1,2) WITH DRIFT";"SLTM";"smape";0.525434
+"Y19054";"SEASONAL DECOMP: ARIMA(3,1,2) WITH DRIFT";"SLTM";"mase";1.116199
+"Y19054";"SEASONAL DECOMP: ARIMA(3,1,2) WITH DRIFT";"SLTM";"rmsse";1.518969
+"Y19054";"PROPHET";"Prophet";"smape";11.937299
+"Y19054";"PROPHET";"Prophet";"mase";26.993041
+"Y19054";"PROPHET";"Prophet";"rmsse";30.468856
+"Y9653";"NAIVE";"Naive";"smape";7.997324
+"Y9653";"NAIVE";"Naive";"mase";1.866516
+"Y9653";"NAIVE";"Naive";"rmsse";1.3842
+"Y9653";"SNAIVE [5]";"Naive";"smape";14.130954
+"Y9653";"SNAIVE [5]";"Naive";"mase";3.555807
+"Y9653";"SNAIVE [5]";"Naive";"rmsse";2.87945
+"Y9653";"ARIMA(1,0,0) WITH NON-ZERO MEAN";"Arima_Seas";"smape";18.303508
+"Y9653";"ARIMA(1,0,0) WITH NON-ZERO MEAN";"Arima_Seas";"mase";4.592118
+"Y9653";"ARIMA(1,0,0) WITH NON-ZERO MEAN";"Arima_Seas";"rmsse";2.798628
+"Y9653";"ETS(M,N,N)";"EXP_smoothing__TBATS";"smape";7.997251
+"Y9653";"ETS(M,N,N)";"EXP_smoothing__TBATS";"mase";1.866498
+"Y9653";"ETS(M,N,N)";"EXP_smoothing__TBATS";"rmsse";1.384188
+"Y9653";"THETA METHOD";"EXP_smoothing__TBATS";"smape";7.850295
+"Y9653";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.830015
+"Y9653";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.361267
+"Y9653";"BATS(1, {1,0}, -, -)";"EXP_smoothing__TBATS";"smape";20.056075
+"Y9653";"BATS(1, {1,0}, -, -)";"EXP_smoothing__TBATS";"mase";5.085673
+"Y9653";"BATS(1, {1,0}, -, -)";"EXP_smoothing__TBATS";"rmsse";3.090135
+"Y9653";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"smape";11.407908
+"Y9653";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"mase";2.748446
+"Y9653";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"rmsse";1.951062
+"Y9653";"SEASONAL DECOMP: ARIMA(1,0,0) WITH NON-ZERO MEAN";"SLTM";"smape";16.812732
+"Y9653";"SEASONAL DECOMP: ARIMA(1,0,0) WITH NON-ZERO MEAN";"SLTM";"mase";4.199306
+"Y9653";"SEASONAL DECOMP: ARIMA(1,0,0) WITH NON-ZERO MEAN";"SLTM";"rmsse";2.727306
+"Y9653";"PROPHET";"Prophet";"smape";21.91251
+"Y9653";"PROPHET";"Prophet";"mase";5.635408
+"Y9653";"PROPHET";"Prophet";"rmsse";3.585606
+"Y12596";"NAIVE";"Naive";"smape";13.719143
+"Y12596";"NAIVE";"Naive";"mase";3.311898
+"Y12596";"NAIVE";"Naive";"rmsse";1.93451
+"Y12596";"SNAIVE [5]";"Naive";"smape";35.017656
+"Y12596";"SNAIVE [5]";"Naive";"mase";7.447387
+"Y12596";"SNAIVE [5]";"Naive";"rmsse";4.092761
+"Y12596";"ARIMA(0,2,1)";"Arima_Seas";"smape";6.547741
+"Y12596";"ARIMA(0,2,1)";"Arima_Seas";"mase";1.764123
+"Y12596";"ARIMA(0,2,1)";"Arima_Seas";"rmsse";0.997
+"Y12596";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";8.852976
+"Y12596";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";2.462502
+"Y12596";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.470098
+"Y12596";"THETA METHOD";"EXP_smoothing__TBATS";"smape";8.725912
+"Y12596";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.170371
+"Y12596";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.284319
+"Y12596";"BATS(0, {0,1}, 0.991, -)";"EXP_smoothing__TBATS";"smape";9.981515
+"Y12596";"BATS(0, {0,1}, 0.991, -)";"EXP_smoothing__TBATS";"mase";2.804912
+"Y12596";"BATS(0, {0,1}, 0.991, -)";"EXP_smoothing__TBATS";"rmsse";1.688661
+"Y12596";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";1.612732
+"Y12596";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";0.40954
+"Y12596";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";0.283454
+"Y12596";"SEASONAL DECOMP: ARIMA(2,2,0)";"SLTM";"smape";6.147602
+"Y12596";"SEASONAL DECOMP: ARIMA(2,2,0)";"SLTM";"mase";1.6676
+"Y12596";"SEASONAL DECOMP: ARIMA(2,2,0)";"SLTM";"rmsse";0.979731
+"Y12596";"PROPHET";"Prophet";"smape";2.032728
+"Y12596";"PROPHET";"Prophet";"mase";0.491565
+"Y12596";"PROPHET";"Prophet";"rmsse";0.325679
+"Q18856";"NAIVE";"Naive";"smape";20.016274
+"Q18856";"NAIVE";"Naive";"mase";0.77583
+"Q18856";"NAIVE";"Naive";"rmsse";1.027745
+"Q18856";"SNAIVE [4]";"Naive";"smape";14.857018
+"Q18856";"SNAIVE [4]";"Naive";"mase";0.588479
+"Q18856";"SNAIVE [4]";"Naive";"rmsse";0.801664
+"Q18856";"ARIMA(1,0,0)(0,1,1)[4]";"Arima_Seas";"smape";13.738314
+"Q18856";"ARIMA(1,0,0)(0,1,1)[4]";"Arima_Seas";"mase";0.534415
+"Q18856";"ARIMA(1,0,0)(0,1,1)[4]";"Arima_Seas";"rmsse";0.730414
+"Q18856";"ETS(M,A,M)";"EXP_smoothing__TBATS";"smape";17.787431
+"Q18856";"ETS(M,A,M)";"EXP_smoothing__TBATS";"mase";0.707977
+"Q18856";"ETS(M,A,M)";"EXP_smoothing__TBATS";"rmsse";1.010573
+"Q18856";"THETA METHOD";"EXP_smoothing__TBATS";"smape";18.626331
+"Q18856";"THETA METHOD";"EXP_smoothing__TBATS";"mase";0.724086
+"Q18856";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.000042
+"Q18856";"TBATS(0.593, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"smape";15.170533
+"Q18856";"TBATS(0.593, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"mase";0.59694
+"Q18856";"TBATS(0.593, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"rmsse";0.812224
+"Q18856";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"smape";14.032189
+"Q18856";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"mase";0.548122
+"Q18856";"SEASONAL DECOMP: ETS(A,N,N)";"SLTM";"rmsse";0.749181
+"Q18856";"SEASONAL DECOMP: ARIMA(0,1,0)";"SLTM";"smape";14.032144
+"Q18856";"SEASONAL DECOMP: ARIMA(0,1,0)";"SLTM";"mase";0.54812
+"Q18856";"SEASONAL DECOMP: ARIMA(0,1,0)";"SLTM";"rmsse";0.749178
+"Q18856";"PROPHET";"Prophet";"smape";37.438358
+"Q18856";"PROPHET";"Prophet";"mase";1.769291
+"Q18856";"PROPHET";"Prophet";"rmsse";2.243238
+"Q18904";"NAIVE";"Naive";"smape";15.617421
+"Q18904";"NAIVE";"Naive";"mase";2.132287
+"Q18904";"NAIVE";"Naive";"rmsse";2.136014
+"Q18904";"SNAIVE [4]";"Naive";"smape";25.351318
+"Q18904";"SNAIVE [4]";"Naive";"mase";3.231039
+"Q18904";"SNAIVE [4]";"Naive";"rmsse";3.129858
+"Q18904";"ARIMA(0,1,2)(0,0,2)[4] WITH DRIFT";"Arima_Seas";"smape";17.907072
+"Q18904";"ARIMA(0,1,2)(0,0,2)[4] WITH DRIFT";"Arima_Seas";"mase";2.411935
+"Q18904";"ARIMA(0,1,2)(0,0,2)[4] WITH DRIFT";"Arima_Seas";"rmsse";2.37204
+"Q18904";"ETS(M,A,M)";"EXP_smoothing__TBATS";"smape";14.376601
+"Q18904";"ETS(M,A,M)";"EXP_smoothing__TBATS";"mase";1.953989
+"Q18904";"ETS(M,A,M)";"EXP_smoothing__TBATS";"rmsse";1.95009
+"Q18904";"THETA METHOD";"EXP_smoothing__TBATS";"smape";14.964024
+"Q18904";"THETA METHOD";"EXP_smoothing__TBATS";"mase";2.05048
+"Q18904";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";2.058988
+"Q18904";"TBATS(0.099, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"smape";8.182648
+"Q18904";"TBATS(0.099, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"mase";1.146602
+"Q18904";"TBATS(0.099, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"rmsse";1.214115
+"Q18904";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";13.01451
+"Q18904";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";1.792784
+"Q18904";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";1.794198
+"Q18904";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"smape";13.513438
+"Q18904";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"mase";1.858197
+"Q18904";"SEASONAL DECOMP: ARIMA(0,1,0) WITH DRIFT";"SLTM";"rmsse";1.854488
+"Q18904";"PROPHET";"Prophet";"smape";9.2618
+"Q18904";"PROPHET";"Prophet";"mase";1.312341
+"Q18904";"PROPHET";"Prophet";"rmsse";1.322577
+"Q2989";"NAIVE";"Naive";"smape";2.531918
+"Q2989";"NAIVE";"Naive";"mase";1.676402
+"Q2989";"NAIVE";"Naive";"rmsse";1.863348
+"Q2989";"SNAIVE [4]";"Naive";"smape";4.133248
+"Q2989";"SNAIVE [4]";"Naive";"mase";2.706776
+"Q2989";"SNAIVE [4]";"Naive";"rmsse";2.803258
+"Q2989";"ARIMA(0,2,1)(2,0,0)[4]";"Arima_Seas";"smape";3.406123
+"Q2989";"ARIMA(0,2,1)(2,0,0)[4]";"Arima_Seas";"mase";2.239684
+"Q2989";"ARIMA(0,2,1)(2,0,0)[4]";"Arima_Seas";"rmsse";2.395416
+"Q2989";"ETS(M,A,M)";"EXP_smoothing__TBATS";"smape";3.025355
+"Q2989";"ETS(M,A,M)";"EXP_smoothing__TBATS";"mase";1.989965
+"Q2989";"ETS(M,A,M)";"EXP_smoothing__TBATS";"rmsse";2.157786
+"Q2989";"THETA METHOD";"EXP_smoothing__TBATS";"smape";1.775589
+"Q2989";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.181621
+"Q2989";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.444916
+"Q2989";"BATS(0.208, {1,3}, 0.972, -)";"EXP_smoothing__TBATS";"smape";3.356624
+"Q2989";"BATS(0.208, {1,3}, 0.972, -)";"EXP_smoothing__TBATS";"mase";2.206758
+"Q2989";"BATS(0.208, {1,3}, 0.972, -)";"EXP_smoothing__TBATS";"rmsse";2.379014
+"Q2989";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";3.043849
+"Q2989";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";2.004805
+"Q2989";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";2.127983
+"Q2989";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"smape";3.135037
+"Q2989";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"mase";2.064019
+"Q2989";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"rmsse";2.170116
+"Q2989";"PROPHET";"Prophet";"smape";1.406855
+"Q2989";"PROPHET";"Prophet";"mase";0.939908
+"Q2989";"PROPHET";"Prophet";"rmsse";1.050441
+"Q1845";"NAIVE";"Naive";"smape";7.948655
+"Q1845";"NAIVE";"Naive";"mase";5.002083
+"Q1845";"NAIVE";"Naive";"rmsse";2.347824
+"Q1845";"SNAIVE [4]";"Naive";"smape";12.789752
+"Q1845";"SNAIVE [4]";"Naive";"mase";8.327083
+"Q1845";"SNAIVE [4]";"Naive";"rmsse";3.75709
+"Q1845";"ARIMA(0,2,1)";"Arima_Seas";"smape";4.38683
+"Q1845";"ARIMA(0,2,1)";"Arima_Seas";"mase";2.526366
+"Q1845";"ARIMA(0,2,1)";"Arima_Seas";"rmsse";1.332025
+"Q3374";"NAIVE";"Naive";"smape";2.538309
+"Q3374";"NAIVE";"Naive";"mase";1.127355
+"Q3374";"NAIVE";"Naive";"rmsse";0.935416
+"Q3374";"SNAIVE [4]";"Naive";"smape";2.669805
+"Q3374";"SNAIVE [4]";"Naive";"mase";1.184653
+"Q3374";"SNAIVE [4]";"Naive";"rmsse";1.024571
+"Q3374";"ARIMA(0,1,1) WITH DRIFT";"Arima_Seas";"smape";3.433557
+"Q3374";"ARIMA(0,1,1) WITH DRIFT";"Arima_Seas";"mase";1.530374
+"Q3374";"ARIMA(0,1,1) WITH DRIFT";"Arima_Seas";"rmsse";1.266383
+"Q3374";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";5.009267
+"Q3374";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";2.264432
+"Q3374";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";1.80053
+"Q3374";"THETA METHOD";"EXP_smoothing__TBATS";"smape";2.819291
+"Q3374";"THETA METHOD";"EXP_smoothing__TBATS";"mase";1.252843
+"Q3374";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.018831
+"Q3374";"TBATS(0.056, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"smape";9.102394
+"Q3374";"TBATS(0.056, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"mase";4.2673
+"Q3374";"TBATS(0.056, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"rmsse";3.295417
+"Q3374";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";4.773895
+"Q3374";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";2.142746
+"Q3374";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";1.551753
+"Q3374";"SEASONAL DECOMP: ARIMA(1,1,0) WITH DRIFT";"SLTM";"smape";3.347641
+"Q3374";"SEASONAL DECOMP: ARIMA(1,1,0) WITH DRIFT";"SLTM";"mase";1.479648
+"Q3374";"SEASONAL DECOMP: ARIMA(1,1,0) WITH DRIFT";"SLTM";"rmsse";1.114367
+"Q3374";"PROPHET";"Prophet";"smape";10.327169
+"Q3374";"PROPHET";"Prophet";"mase";4.846636
+"Q3374";"PROPHET";"Prophet";"rmsse";3.603673
+"Q11644";"NAIVE";"Naive";"smape";2.595097
+"Q11644";"NAIVE";"Naive";"mase";2.922872
+"Q11644";"NAIVE";"Naive";"rmsse";1.376933
+"Q11644";"SNAIVE [4]";"Naive";"smape";2.36003
+"Q11644";"SNAIVE [4]";"Naive";"mase";2.662234
+"Q11644";"SNAIVE [4]";"Naive";"rmsse";1.22034
+"Q11644";"ARIMA(0,2,1)";"Arima_Seas";"smape";5.404499
+"Q11644";"ARIMA(0,2,1)";"Arima_Seas";"mase";5.970048
+"Q11644";"ARIMA(0,2,1)";"Arima_Seas";"rmsse";2.740941
+"Q11644";"ETS(A,A,N)";"EXP_smoothing__TBATS";"smape";5.308134
+"Q11644";"ETS(A,A,N)";"EXP_smoothing__TBATS";"mase";5.867291
+"Q11644";"ETS(A,A,N)";"EXP_smoothing__TBATS";"rmsse";2.697401
+"Q11644";"THETA METHOD";"EXP_smoothing__TBATS";"smape";2.780853
+"Q11644";"THETA METHOD";"EXP_smoothing__TBATS";"mase";3.127972
+"Q11644";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.467002
+"Q11644";"TBATS(1, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"smape";5.441172
+"Q11644";"TBATS(1, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"mase";6.00713
+"Q11644";"TBATS(1, {0,0}, 1, {<4,1>})";"EXP_smoothing__TBATS";"rmsse";2.782449
+"Q11644";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"smape";5.192562
+"Q11644";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"mase";5.741527
+"Q11644";"SEASONAL DECOMP: ETS(A,A,N)";"SLTM";"rmsse";2.672335
+"Q11644";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"smape";5.318808
+"Q11644";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"mase";5.87606
+"Q11644";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"rmsse";2.732595
+"Q11644";"PROPHET";"Prophet";"smape";3.988144
+"Q11644";"PROPHET";"Prophet";"mase";4.449709
+"Q11644";"PROPHET";"Prophet";"rmsse";2.058995
+"Q4764";"NAIVE";"Naive";"smape";0.475571
+"Q4764";"NAIVE";"Naive";"mase";3.304332
+"Q4764";"NAIVE";"Naive";"rmsse";1.564935
+"Q4764";"SNAIVE [4]";"Naive";"smape";0.505228
+"Q4764";"SNAIVE [4]";"Naive";"mase";3.511012
+"Q4764";"SNAIVE [4]";"Naive";"rmsse";1.757748
+"Q4764";"ARIMA(0,2,1)";"Arima_Seas";"smape";0.782602
+"Q4764";"ARIMA(0,2,1)";"Arima_Seas";"mase";5.447568
+"Q4764";"ARIMA(0,2,1)";"Arima_Seas";"rmsse";2.670166
+"Q4764";"ETS(A,AD,N)";"EXP_smoothing__TBATS";"smape";0.581673
+"Q4764";"ETS(A,AD,N)";"EXP_smoothing__TBATS";"mase";4.04393
+"Q4764";"ETS(A,AD,N)";"EXP_smoothing__TBATS";"rmsse";1.940952
+"Q4764";"THETA METHOD";"EXP_smoothing__TBATS";"smape";0.91979
+"Q4764";"THETA METHOD";"EXP_smoothing__TBATS";"mase";6.408205
+"Q4764";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";3.171918
+"Q4764";"BATS(1, {0,0}, 0.98, -)";"EXP_smoothing__TBATS";"smape";0.759611
+"Q4764";"BATS(1, {0,0}, 0.98, -)";"EXP_smoothing__TBATS";"mase";5.286723
+"Q4764";"BATS(1, {0,0}, 0.98, -)";"EXP_smoothing__TBATS";"rmsse";2.582448
+"Q4764";"SEASONAL DECOMP: ETS(A,AD,N)";"SLTM";"smape";0.612836
+"Q4764";"SEASONAL DECOMP: ETS(A,AD,N)";"SLTM";"mase";4.261482
+"Q4764";"SEASONAL DECOMP: ETS(A,AD,N)";"SLTM";"rmsse";2.101928
+"Q4764";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"smape";0.856046
+"Q4764";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"mase";5.961885
+"Q4764";"SEASONAL DECOMP: ARIMA(0,2,1)";"SLTM";"rmsse";2.988064
+"Q4764";"PROPHET";"Prophet";"smape";1.149691
+"Q4764";"PROPHET";"Prophet";"mase";8.031279
+"Q4764";"PROPHET";"Prophet";"rmsse";4.498323
+"Q6752";"NAIVE";"Naive";"smape";4.241898
+"Q6752";"NAIVE";"Naive";"mase";4.964551
+"Q6752";"NAIVE";"Naive";"rmsse";2.336978
+"Q6752";"SNAIVE [4]";"Naive";"smape";5.968196
+"Q6752";"SNAIVE [4]";"Naive";"mase";6.909419
+"Q6752";"SNAIVE [4]";"Naive";"rmsse";3.086922
+"Q6752";"ARIMA(0,2,1)(0,0,1)[4]";"Arima_Seas";"smape";1.456655
+"Q6752";"ARIMA(0,2,1)(0,0,1)[4]";"Arima_Seas";"mase";1.72986
+"Q6752";"ARIMA(0,2,1)(0,0,1)[4]";"Arima_Seas";"rmsse";0.800312
+"Q6752";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";1.111507
+"Q6752";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";1.320932
+"Q6752";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";0.609952
+"Q6752";"THETA METHOD";"EXP_smoothing__TBATS";"smape";3.399804
+"Q6752";"THETA METHOD";"EXP_smoothing__TBATS";"mase";3.998158
+"Q6752";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.872241
+"Q6752";"BATS(0.193, {1,2}, 1, -)";"EXP_smoothing__TBATS";"smape";0.67052
+"Q6752";"BATS(0.193, {1,2}, 1, -)";"EXP_smoothing__TBATS";"mase";0.797234
+"Q6752";"BATS(0.193, {1,2}, 1, -)";"EXP_smoothing__TBATS";"rmsse";0.388783
+"Q6752";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";1.168798
+"Q6752";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";1.387124
+"Q6752";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";0.62019
+"Q6752";"SEASONAL DECOMP: ARIMA(4,2,1)";"SLTM";"smape";1.45393
+"Q6752";"SEASONAL DECOMP: ARIMA(4,2,1)";"SLTM";"mase";1.726168
+"Q6752";"SEASONAL DECOMP: ARIMA(4,2,1)";"SLTM";"rmsse";0.785044
+"Q6752";"PROPHET";"Prophet";"smape";1.098094
+"Q6752";"PROPHET";"Prophet";"mase";1.306656
+"Q6752";"PROPHET";"Prophet";"rmsse";0.624579
+"Q6752";"H2O AUTOML - GBM";"H2O";"smape";102.959702
+"Q6752";"H2O AUTOML - GBM";"H2O";"mase";80.896634
+"Q6752";"H2O AUTOML - GBM";"H2O";"rmsse";34.898746
+"Q16137";"NAIVE";"Naive";"smape";10.657421
+"Q16137";"NAIVE";"Naive";"mase";4.697049
+"Q16137";"NAIVE";"Naive";"rmsse";2.170242
+"Q16137";"SNAIVE [4]";"Naive";"smape";16.11516
+"Q16137";"SNAIVE [4]";"Naive";"mase";6.872396
+"Q16137";"SNAIVE [4]";"Naive";"rmsse";2.981199
+"Q16137";"ARIMA(1,2,3)(0,0,2)[4]";"Arima_Seas";"smape";2.136321
+"Q16137";"ARIMA(1,2,3)(0,0,2)[4]";"Arima_Seas";"mase";0.953103
+"Q16137";"ARIMA(1,2,3)(0,0,2)[4]";"Arima_Seas";"rmsse";0.447326
+"Q16137";"ETS(M,A,N)";"EXP_smoothing__TBATS";"smape";3.815884
+"Q16137";"ETS(M,A,N)";"EXP_smoothing__TBATS";"mase";1.740208
+"Q16137";"ETS(M,A,N)";"EXP_smoothing__TBATS";"rmsse";0.772333
+"Q16137";"THETA METHOD";"EXP_smoothing__TBATS";"smape";9.275163
+"Q16137";"THETA METHOD";"EXP_smoothing__TBATS";"mase";4.120125
+"Q16137";"THETA METHOD";"EXP_smoothing__TBATS";"rmsse";1.901131
+"Q16137";"BATS(0.006, {0,0}, 1, -)";"EXP_smoothing__TBATS";"smape";3.010496
+"Q16137";"BATS(0.006, {0,0}, 1, -)";"EXP_smoothing__TBATS";"mase";1.374439
+"Q16137";"BATS(0.006, {0,0}, 1, -)";"EXP_smoothing__TBATS";"rmsse";0.607905
+"Q16137";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"smape";3.708309
+"Q16137";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"mase";1.693027
+"Q16137";"SEASONAL DECOMP: ETS(M,A,N)";"SLTM";"rmsse";0.75686
+"Q16137";"SEASONAL DECOMP: ARIMA(4,2,2)";"SLTM";"smape";1.313407
+"Q16137";"SEASONAL DECOMP: ARIMA(4,2,2)";"SLTM";"mase";0.600321
+"Q16137";"SEASONAL DECOMP: ARIMA(4,2,2)";"SLTM";"rmsse";0.292542
+"Q16137";"PROPHET";"Prophet";"smape";13.910804
+"Q16137";"PROPHET";"Prophet";"mase";6.007913
+"Q16137";"PROPHET";"Prophet";"rmsse";2.564243
